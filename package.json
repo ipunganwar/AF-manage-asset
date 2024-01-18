@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "npm-run-all --parallel vite mock-server",
+    "dev": "npm-run-all --parallel vite mock-server",
+    "vite": "vite",
     "build": "vue-tsc && vite build",
     "mock-server": "json-server --watch mock-server/db.json",
     "preview": "vite preview"
@@ -24,6 +26,7 @@
     "autoprefixer": "^10.4.16",
     "json-server": "^1.0.0-alpha.21",
     "less": "^4.2.0",
+    "npm-run-all": "^4.1.5",
     "pinia-plugin-persistedstate": "^3.2.1",
     "postcss": "^8.4.33",
     "postcss-import": "^16.0.0",
