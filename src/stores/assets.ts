@@ -6,7 +6,7 @@ import createApiInstance from '@/utils/axios-interface.ts'
 const api = createApiInstance()
 
 // @ts-ignore
-import ASSET_LIST from './mock/ASSET_LIST.js'
+// import ASSET_LIST from './mock/ASSET_LIST.js'
 
 const helper = {
   mapObject: (sourceObject: any) => {
