@@ -1,7 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
-  <nav class="topnav w-[87%]">
+  <nav class="topnav">
     <div class="topnav__wrapper">
       <p class="text-xl font-medium">Manage Assets</p>
       <ul class="flex gap-4">
@@ -21,12 +22,11 @@
 
 <style scoped lang="less">
 .topnav {
-  @apply md:block;
-  @apply fixed;
+  @apply md:block w-full;
+  // @apply fixed;
   @apply bg-slate-50;
   @apply min-h-[`64px`];
-  @apply top-0 left-64;
-  @apply z-50;
+  // @apply top-0;
   @apply text-base;
 
   &__wrapper {
