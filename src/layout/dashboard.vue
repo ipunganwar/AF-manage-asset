@@ -5,23 +5,21 @@ import SideNav from '@/components/menus/SideNav.vue'
 </script>
 
 <template>
-  <div class="w-screen">
+  <SideNav />
+  <main class="dashboard-layout">
     <TopNav />
-    <main class="dashboard-layout">
-      <SideNav />
-      <div class="dashboard-layout__body">
-        <slot></slot>
-      </div>
-    </main>
-  </div>
+    <div class="dashboard-layout__body">
+      <slot></slot>
+    </div>
+  </main>
 </template>
 
 <style scoped lang="less">
   .dashboard-layout {
-    @apply w-full overflow-hidden bg-red-100;
+    @apply overflow-hidden w-full pl-64;
 
     &__body {
-      @apply h-full;
+      @apply h-full w-full text-center bg-white m-10 rounded-md;
     }
   }
 </style>
