@@ -1,0 +1,4 @@
+export const HOME = 'HOME'
+export const ASSET_MANAGEMENT = 'ASSET_MANAGEMENT'
+export const ASSET_MANAGEMENT_ADD = 'ASSET_MANAGEMENT_ADD'
+export const SETTINGS = 'SETTINGS'
