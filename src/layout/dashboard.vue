@@ -19,7 +19,7 @@ import SideNav from '@/components/menus/SideNav.vue'
     @apply overflow-hidden w-full pl-64;
 
     &__body {
-      @apply h-full w-full text-center bg-white m-10 rounded-md;
+      @apply h-full text-center bg-white m-10 rounded-md;
     }
   }
 </style>
