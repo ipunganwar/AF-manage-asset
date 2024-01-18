@@ -1,0 +1,198 @@
+{
+  "asset_list": [
+    {
+      "AssetID": "V001",
+      "AssetName": "Delivery Van",
+      "Category": "Vehicle",
+      "Status": "Active",
+      "ModelNumber": "VD2000",
+      "SerialNumber": "SN1234567890",
+      "Description": "Ford Transit 2021",
+      "PurchaseCost": 450000000,
+      "PurchaseDate": "2021-06-15",
+      "VendorName": "Ford Motors"
+    },
+    {
+      "AssetID": "V002",
+      "AssetName": "Forklift Truck",
+      "Category": "Vehicle",
+      "Status": "Inactive",
+      "ModelNumber": "FT400",
+      "SerialNumber": "SN9876543210",
+      "Description": "Toyota Forklift 2020",
+      "PurchaseCost": 375000000,
+      "PurchaseDate": "2020-10-22",
+      "VendorName": "Ford Motors"
+    },
+    {
+      "AssetID": "T001",
+      "AssetName": "Heavy-Duty Tire",
+      "Category": "Tire",
+      "Status": "In Repair",
+      "ModelNumber": "HT500",
+      "SerialNumber": "SN5678901234",
+      "Description": "Bridgestone Mud Terrain",
+      "PurchaseCost": 5000000,
+      "PurchaseDate": "2023-03-05",
+      "VendorName": "Bridgestone Tires"
+    },
+    {
+      "AssetID": "T002",
+      "AssetName": "All-Season Tire Set",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "AS400",
+      "SerialNumber": "SN2345678901",
+      "Description": "Michelin CrossClimate+",
+      "PurchaseCost": 6750000,
+      "PurchaseDate": "2022-08-12",
+      "VendorName": "Michelin Tires"
+    },
+    {
+      "AssetID": "V003",
+      "AssetName": "SUV",
+      "Category": "Vehicle",
+      "Status": "Active",
+      "ModelNumber": "SUV2022",
+      "SerialNumber": "SN1122334455",
+      "Description": "Honda CR-V 2022",
+      "PurchaseCost": 520000000,
+      "PurchaseDate": "2022-04-30",
+      "VendorName": "Honda Motors"
+    },
+    {
+      "AssetID": "V004",
+      "AssetName": "Truck",
+      "Category": "Vehicle",
+      "Status": "Active",
+      "ModelNumber": "TRK3000",
+      "SerialNumber": "SN9988776655",
+      "Description": "Isuzu NPR Truck",
+      "PurchaseCost": 820000000,
+      "PurchaseDate": "2023-01-10",
+      "VendorName": "Isuzu Motors"
+    },
+    {
+      "AssetID": "T003",
+      "AssetName": "Performance Tire",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "PT700",
+      "SerialNumber": "SN8765432109",
+      "Description": "Goodyear Eagle F1",
+      "PurchaseCost": 8000000,
+      "PurchaseDate": "2021-11-25",
+      "VendorName": "Goodyear Tires"
+    },
+    {
+      "AssetID": "T004",
+      "AssetName": "Winter Tire Set",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "WT300",
+      "SerialNumber": "SN5432109876",
+      "Description": "Pirelli Winter Sottozero",
+      "PurchaseCost": 6000000,
+      "PurchaseDate": "2023-06-18",
+      "VendorName": "Pirelli Tires"
+    },
+    {
+      "id": "5946",
+      "Headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {
+        "__v_isShallow": false,
+        "dep": {},
+        "__v_isRef": true,
+        "_rawValue": {
+          "id": "asasa",
+          "name": "asas",
+          "category": "Tire",
+          "status": "Active",
+          "modelNumber": "asasa",
+          "serialNumber": "sasa",
+          "desc": "sasas",
+          "cost": "0121",
+          "date": "19/01/2024",
+          "vendorName": "asasa"
+        },
+        "_value": {
+          "id": "asasa",
+          "name": "asas",
+          "category": "Tire",
+          "status": "Active",
+          "modelNumber": "asasa",
+          "serialNumber": "sasa",
+          "desc": "sasas",
+          "cost": "0121",
+          "date": "19/01/2024",
+          "vendorName": "asasa"
+        }
+      }
+    },
+    {
+      "id": "121212",
+      "name": "1212",
+      "category": "Tire",
+      "status": "Active",
+      "modelNumber": "1212",
+      "serialNumber": "1212",
+      "desc": "2121",
+      "cost": "0909090",
+      "date": "19/01/2024",
+      "vendorName": "1212"
+    },
+    {
+      "id": "121212",
+      "name": "1212",
+      "category": "Tire",
+      "status": "Active",
+      "modelNumber": "1212",
+      "serialNumber": "1212",
+      "desc": "1212",
+      "cost": "909090",
+      "date": "19/01/2024",
+      "vendorName": "1212"
+    },
+    {
+      "id": "798a",
+      "AssetID": "qwqwqw",
+      "AssetName": "qwqwqw",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "qwqwq",
+      "SerialNumber": "qwqw",
+      "Description": "wqwqwqw",
+      "PurchaseCost": "01221",
+      "PurchaseDate": "18/01/2024",
+      "VendorName": "qwqwq"
+    },
+    {
+      "id": "01fa",
+      "AssetID": "123",
+      "AssetName": "1213",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "12134",
+      "SerialNumber": "12121",
+      "Description": "1212",
+      "PurchaseCost": "0909012",
+      "PurchaseDate": "19/01/2024",
+      "VendorName": "1212"
+    },
+    {
+      "id": "b8f8",
+      "AssetID": "12121212",
+      "AssetName": "12121212",
+      "Category": "Tire",
+      "Status": "Active",
+      "ModelNumber": "121212",
+      "SerialNumber": "1212121",
+      "Description": "1212121",
+      "PurchaseCost": "0909090",
+      "PurchaseDate": "26/01/2024",
+      "VendorName": "12121212"
+    }
+  ]
+}
