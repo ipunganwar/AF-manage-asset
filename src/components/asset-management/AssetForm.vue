@@ -70,6 +70,10 @@ const getValidationRules = (key: string) => {
     rules.push((value: any) => !!value || 'Field is required');
   }
 
+  if (key === 'cost') {
+    rules.push((value: any) => value < 1 || 'Input greater than 0');
+  }
+
   return rules
 }
 
@@ -129,6 +133,7 @@ const handleAddAsset = () => {
             :modelValue="setNewAssetInput[field.key]"
             @update:modelValue="(value) => setNewAssetInput[field.key] = value"
             @click="isDateSelector(field?.key)"
+            :prefix="field?.key === 'cost' ? 'Rp' : ''"
           />
 
           <v-dialog width="400" v-model="isShowDate">

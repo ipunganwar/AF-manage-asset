@@ -2,6 +2,8 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
+import { useAsset } from '@/stores/assets'
+
 // CONSTANTS
 import { ASSET_MANAGEMENT_ADD } from '@/router/pages'
 
@@ -11,11 +13,17 @@ import Button from '@/components/common/Button.vue'
 import SuperInput from '@/components/common/SuperInput.vue'
 
 const router = useRouter()
+const { getFilter } = useAsset()
 
 const searchText = ref('')
 
 const handleAddNewAsset = () => {
   router.push({ name: ASSET_MANAGEMENT_ADD })
+}
+
+const handleSearch = (event: Event) => {
+  const target = event.target as HTMLInputElement
+  getFilter(target?.value)
 }
 </script>
 
@@ -31,6 +39,7 @@ const handleAddNewAsset = () => {
           :is-using-title="false"
           v-model="searchText"
           placeholder="Search Asset..."
+          @input="handleSearch"
         />
       </div>
     </div>

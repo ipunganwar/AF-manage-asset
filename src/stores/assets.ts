@@ -90,7 +90,15 @@ export const useAsset = defineStore('asset', {
       } catch (err) {
         console.error(err)
       }
-      
+    },
+    getFilter (name: string) {
+      const lowerCaseName = name.toLowerCase()
+
+      if (name.length > 0) {
+        this.table.rows = this.table.rows?.filter(asset => asset?.AssetName?.toLowerCase().includes(lowerCaseName))
+      } else {
+        this.fetchAssetList()
+      }
     },
   },
 })
